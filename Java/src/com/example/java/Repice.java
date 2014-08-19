@@ -8,11 +8,10 @@ public class Repice
 {
     public static void main(String[] args)
     {
-        System.out.print("Hello\n");
-        System.out.print("if you want to \n");
-        System.out.print("remove duplication press 1 \n");
-        System.out.print("remove whitespace characters press 2 \n");
-        System.out.print("remove concrete name press 3 \n");
+        String menu = "\n" + "Hello" + "\n" + "1.remove duplications" +
+                "\n" + "2.remove whitespaces" + "\n" + "3.remove concrete name";
+        System.out.print(menu);
+
         Scanner scan = new Scanner(System.in);
         int pe = scan.nextInt();
 
