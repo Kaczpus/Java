@@ -13,17 +13,34 @@ public class Repice
 {
     public static void main(String[] args)
     {
-        if(args.length>0)
-        {
-            File file = new File(args[0]);
-        }
         if(args.length != 1)
         {
             System.err.println("Invalid command line, exactly one argument required");
             System.exit(1);
         }
 
-        
+
+        BufferedReader br = null;
+
+        try {
+
+            String sCurrentLine;
+
+            br = new BufferedReader(new FileReader(args[0]));
+
+            while ((sCurrentLine = br.readLine()) != null) {
+                System.out.println(sCurrentLine);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null)br.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
 
 
         String menu = "\n" + "Hello" + "\n" + "1.remove duplications" +
