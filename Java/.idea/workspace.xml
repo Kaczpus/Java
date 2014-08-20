@@ -67,7 +67,7 @@
       <file leaf-file-name="Repice.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/java/Repice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
+            <state line="47" column="31" selection-start="1023" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1512">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/java/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="1.2746114" vertical-offset="810" max-vertical-offset="1854">
+            <state line="86" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1854">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/java/menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="3" selection-start="596" selection-end="596" vertical-scroll-proportion="0.6501767" vertical-offset="100" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -98,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/com/example/java/Repice.java" />
         <option value="$PROJECT_DIR$/src/com/example/java/Opener.java" />
         <option value="$PROJECT_DIR$/src/com/example/java/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/example/java/menu.java" />
       </list>
     </option>
   </component>
@@ -398,7 +408,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="74" width="960" height="1053" extended-state="0" />
+    <frame x="960" y="74" width="960" height="1053" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -456,7 +466,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/java/Repice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1512">
+        <state line="47" column="31" selection-start="1023" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1512">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -465,7 +475,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/java/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="1.2746114" vertical-offset="810" max-vertical-offset="1854">
+        <state line="86" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/java/menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="3" selection-start="596" selection-end="596" vertical-scroll-proportion="0.6501767" vertical-offset="100" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
